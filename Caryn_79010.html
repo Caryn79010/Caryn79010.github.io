@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Self Introduction</title>
+	<link rel="stylesheet" href="Caryn_79010.css">
+</head>
+<body>
+
+		
+	<div id="header">
+		<div class="container"> 
+			<nav>
+				<div class="logo">
+					<img src="logo2.png">
+				</div>
+				<audio controls autoplay muted>
+					<source src="fallin.ogg" type="audio.ogg">
+					<source src= "fallin.mp3" type="audio/mpeg">
+				</audio>
+				<div id="date"></div>
+					<ul>
+						<li><a href="#header">HOME</a></li>
+						<li><a href="#about">ABOUT ME</a></li>
+						<li><a href="https://instagram.com/carynchongkx?igshid=ntc4mtiwnjq2yq==" target=_blank>
+							<ion-icon name="logo-instagram"></ion-icon></a>
+						</li>
+						<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+						<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+					</ul>
+			</nav>
+			
+			<div class="bg">
+				<img src="sky.jpg">
+				<div class="text-container">
+					<p>Nice To Meet You All!</p>
+					<h1>I'm Caryn Chong Ke Xin</h1>
+				</div>
+			</div> 
+		</div>
+	</div>
+	
+	<!----about me---->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="me.jpg">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>
+					<br>
+					I'm Caryn Chong Ke Xin and basically my friends call me CC instead. 
+					I am 22 this year and born in 4th of January. I am a capricorn with ISFJ personality.(MBTI) 
+					I was born and raised in Kuching, Sarawak. I have a total of 4 family members, including a sister who is 2 years younger than me.
+					<br><br>
+					I actually pursue a few such as singing,taking photographs, drawing, hiking, camping, and so on. But among all of the hobbies, the hobby that I enjoyed most of the time is still singing. 
+					Singing while bathing will definitely be a must for singing lovers I guess. For me, I sing whenever I'm in the toilet or bathroom. 
+					I enjoy listening to songs from different genres and languages. During most of my free time excluding surfing over social media, I do learn and cover them.
+					While I may not be a professional, I enjoy doing it everytime. Besides that, I love taking photographs no matter what or when. 
+					Taking photographs brings me a great sense of satisfaction. It is like capturing every moment you tresure and preserving those memories with you.
+					<br>
+					</p>
+					
+					<div class="tab-titles"> <!--JS event onclick-->
+						<p class="tab-links active-link" onclick="opentab('education')">Education</p>
+						<p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+				</div>
+				<div class="tab-contents active-tab" id="education">
+					<ul>
+						<li><span>Primary Education</span><br>SJK(C) Chung Hua No.4</li>
+						<li><span>Secondary Education</span><br>Kuching High School</li>
+						<li><span>Pre-university Education (FORM 6)</span><br>SMK Batu Lintang</li>
+						<li><span>Tertiary Education</span><br>Universiti Malaysia Sarawak</li>
+					</u>
+				</div>
+				<div class="tab-contents" id="hobbies">
+					<ul>
+						<li><span>I have several hobbies such as</span><br>Singing<br>Drawing<br>Reading<br>Taking photographs</li>
+					</u>
+				</div>
+			</div>
+			<h2 class="gallery">Here are some of the pictures that I took&#x1F4F7</h2>			
+			<div class="row1">
+				<div class="column1">
+					<br><img src="image1.jpg" alt="bookshelf" style="width:100%">
+				</div>
+				<div class="column1">
+					<br><img src="image2.jpg" alt="wtp" style="width: 100%">
+				</div>
+				<div class="column1">
+					<br><img src="image3.jpg" alt="wm"style="width:100%">
+				</div>
+				<div class="column1">
+					<br><img src="image4.jpg" alt="drink1"style="width:100%">
+				</div>
+				<div class="column1">
+					<br><img src="image5.jpg" alt="drink2"style="width:100%">
+				</div>
+				<div class="column1">
+					<br><img src="image6.jpg" alt="drink3"style="width:100%">
+				</div>
+			</div>	
+			<nav class="sec-nav">
+				<ul>
+					<li><a href="#">GO TO TOP</a></li>
+				</ul>
+			</nav>
+			<div class="animation">
+				<br><img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+				<img src="wtp.gif" alt="My GIF">
+			</div>
+		</div>
+	</div>
+
+
+
+	
+	
+	<script> 
+		<!--JS object--> <!--JS date-->
+		// Create a new Date object
+		var currentDate = new Date();
+
+		// Get the current date and format it as a string
+		var dateString = currentDate.toLocaleDateString();
+	
+		// Get the HTML element to display the date and update its content
+		var dateElement = document.getElementById("date");
+		dateElement.innerHTML = dateString;
+		
+		<!--JS statement--> <!--JS variable-->
+		var tablinks = document.getElementsByClassName("tab-links");
+		var tabcontents = document.getElementsByClassName("tab-contents");
+		
+		function opentab(tabname){ <!--JS function-->
+			for(tablink of tablinks){
+				tablink.classList.remove("active-link");
+			}
+			for(tabcontent of tabcontents){
+				tabcontent.classList.remove("active-tab");
+			}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+	</script>
+
+</body>
+</html>
